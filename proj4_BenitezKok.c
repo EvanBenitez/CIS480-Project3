@@ -299,7 +299,7 @@ int main(int argc, char *argv[]){
   init(argv[1]);
 
   int cycle = 1; //program will continue until cycle == 0
-  int max = 20; //maximum cycles
+  int max = 1000; //maximum cycles
   int count = 0;
   while(cycle && max > 0){
     Branch_Update();
